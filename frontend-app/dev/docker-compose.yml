@@ -1,0 +1,8 @@
+name: frontend-app-stack
+
+services:
+  frontend-app:
+    image: talel12/front-session13
+    container_name: frontend-app
+    ports:
+      - '3000:80'
